@@ -34,33 +34,35 @@ function topFunction() {
 }
 
 function coverletter() {
-    myWindow = window.open("", "myWindow", "width=800,height=800");
-    myWindow.document.write("<img src='Includes/CoverleterIMG.png' width='800px' height='800px'>");
+    myWindow = window.open("", "myWindow", "width=950,height=950");
+    myWindow.document.write("<img src='Includes/CoverleterIMG.png'>");
 }
 
 function resume() {
-    myWindow = window.open("", "myWindow", "width=800,height=800");
-    myWindow.document.write("<img src='Includes/ResumeIMG.png' width='800px' height='800px'>");
+    myWindow = window.open("", "myWindow", "width=950px,height=950px");
+    myWindow.document.write("<img src='Includes/ResumeIMG_Page1.png' >");
+    myWindow.document.write("<img src='Includes/ResumeIMG_Page2.png' >");
+
 }
 
 function semester1() {
-    myWindow = window.open("", "myWindow", "width=800,height=800");
-    myWindow.document.write("<img src='Images/Semester1.png' width='800px' height='800px'>");
+    myWindow = window.open("", "myWindow", "width=950,height=950");
+    myWindow.document.write("<img src='Images/Semester1.png'>");
 }
 
 function semester2() {
-    myWindow = window.open("", "myWindow", "width=800,height=800");
-    myWindow.document.write("<img src='Images/Semester2.png' width='800px' height='800px'>");
+    myWindow = window.open("", "myWindow", "width=950,height=950");
+    myWindow.document.write("<img src='Images/Semester2.png'>");
 }
 
 function semester3() {
-    myWindow = window.open("", "myWindow", "width=800,height=800");
-    myWindow.document.write("<img src='Images/Semester3.png' width='800px' height='800px'>");
+    myWindow = window.open("", "myWindow", "width=950,height=950");
+    myWindow.document.write("<img src='Images/Semester3.png'>");
 }
 
 function stestimonial() {
-    myWindow = window.open("", "myWindow", "width=800,height=800");
-    myWindow.document.write("<img src='Includes/Getuigskrif.jpeg' width='800px' height='800px'>");
+    myWindow = window.open("", "myWindow", "width=950,height=950");
+    myWindow.document.write("<img src='Includes/Getuigskrif.jpeg' width='940px' height='940px'>");
 }
 
 /**
