@@ -1,338 +1,42 @@
 body {
-    background-color: rgb(248, 248, 248);
-    /* For browsers that do not support gradients */
-    background-image: radial-gradient(circle, rgb(47, 141, 175), rgb(21, 66, 82), rgb(13, 43, 54));
+    background-image: url("/Online_Resume/Images/background16.jpg");
+    background-repeat: repeat, repeat;
+    /* background-size: 100%, 100%; */
+    background-color: #0d92cf;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: rgba(51, 51, 51, 0.753);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-    width: 100%;
-}
-
-.nav-Title {
-    margin: auto;
+.Start {
     width: 50%;
-    border: 3px solid rgb(170, 170, 170);
-    background-color: rgba(12, 12, 12, 0.397);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-    border-radius: 35px;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    min-width: 240px;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 12px;
-    text-decoration: none;
-    font-size: 19px;
-    font-weight: 400;
-    background-color: rgba(27, 27, 27, 0.397);
-    margin: 5px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px black;
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #0ed1c7;
-    background-image: radial-gradient(circle, rgb(22, 185, 234), rgb(13, 139, 189), rgb(6, 68, 117));
-    color: white;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-@media screen and (max-width: 810px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 810px) {
-    .topnav.responsive {
-        position: relative;
-    }
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
-
-.table-responsive {
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    background-color: rgb(21, 66, 82);
-}
-
-.pDetailTit {
-    text-align: center;
-    background-color: rgba(51, 51, 51, 0.753);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-}
-
-.table-responsive .one {
-    background-color: rgb(21, 66, 82);
-    border-top: 1px solid red;
-}
-
-.table-responsive .two {
-    background-color: rgb(30, 95, 119);
-}
-
-.aboutMe {
-    color: white;
-    background-color: rgba(15, 11, 61, 0.5);
-    background-image: radial-gradient(circle, rgb(28, 69, 83), rgb(1, 56, 77), rgb(0, 26, 36));
-    padding: 10px;
-    border-radius: 25px;
+    margin: auto;
 }
 
 .center {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 20px rgb(41, 41, 41);
+    margin: 0;
+    font-size: 13px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border: 3px solid rgb(201, 201, 201);
+    color: black;
+    width: 45%;
     text-align: center;
+    padding: 10px;
 }
 
-.dlBtn {
-    width: 50%;
-    margin: auto;
-    color: white;
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 5px 5px black;
-    font-weight: 400;
-    background-color: rgb(21, 66, 82);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-}
-
-.dlBtn:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
-.right {
+#screenSize {
+    color: red;
     text-align: right;
 }
 
-.logo {
-    width: 60%;
-    height: auto;
-    margin: auto;
-    padding-top: 25px;
-}
-
-.matric {
-    color: white;
-    background-color: rgb(21, 66, 82);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-    border-radius: 25px;
-}
-
-.bscit1 {
-    color: white;
-    background-color: rgb(21, 66, 82);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-    border-radius: 25px;
-    border: 2px solid white;
-}
-
-.verticalCenter {
-    padding-top: 25px;
-}
-
-.resultTable {
-    background-color: rgb(21, 66, 82);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-}
-
-#chartdiv {
-    width: 100%;
-    height: 350px;
-}
-
-.chartLangauge {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    background-color: rgb(71, 71, 71);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-    border-radius: 25px;
-}
-
-.libaries {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    background-color: rgb(71, 71, 71);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-    border-radius: 25px;
-}
-
-#libDiv {
-    width: 100%;
-    height: 250px;
-}
-
-.Aditional {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    background-color: rgb(71, 71, 71);
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.521), rgba(5, 5, 5, 0.733));
-    border-radius: 25px;
-}
-
-#AditionalDiv {
-    width: 100%;
-    height: 250px;
-}
-
-.Careers {
-    background-color: gray;
-    color: white;
-    text-align: center;
-    border: 2px solid white;
-    border-radius: 25px;
-    margin-top: 15px;
-    background-image: radial-gradient(circle, rgb(49, 49, 49), rgba(22, 22, 22, 0.808), rgba(5, 5, 5, 0.925));
-}
-
-.umbImg {
-    margin-top: 25px;
-    border: 3px solid black;
-    border-radius: 25px;
-}
-
-.LongTermGoals {
-    color: white;
-    background-color: rgb(80, 80, 80);
-    background-image: radial-gradient(circle, rgb(116, 116, 116), rgb(49, 49, 49), rgb(0, 0, 0));
-    border: 2px solid white;
-    border-radius: 25px;
-    margin-top: 14px;
-}
-
-.PersonalGoals {
-    color: white;
-    background-color: rgb(66, 66, 66);
-    background-image: radial-gradient(circle, rgb(116, 116, 116), rgb(49, 49, 49), rgb(0, 0, 0));
-    border: 2px solid white;
-    border-radius: 25px;
-    margin-top: 14px;
-}
-
-.contactMe {
-    text-align: center;
-    position: relative;
-    color: white;
-}
-
-.Email {
-    text-align: center;
-}
-
-.emailImg {
-    margin-top: 25px;
-    background-color: rgb(25, 29, 31);
-    border: 2px solid white;
-    box-shadow: 3px 3px black;
-    width: 50%;
-    height: auto;
-    opacity: 1;
-    display: block;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-5%, -50%);
-    -ms-transform: translate(-5%, -50%);
-    text-align: center;
-}
-
-.Email:hover .image {
-    opacity: 0.3;
-}
-
-.Email:hover .middle {
-    opacity: 1;
-}
-
-.text {
-    background-color: #acacac;
-    color: rgb(12, 12, 12);
-    font-size: 12px;
-    padding: 16px 32px;
-    border: 2px solid black;
-}
-
-.github {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.github:hover {
-    background-image: radial-gradient(circle, rgb(116, 116, 116), rgb(49, 49, 49), rgb(0, 0, 0));
-    margin-top: 15px;
-    border-radius: 155px;
-}
-
-.git_img {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.git_img:hover {
-    width: 70%;
-    height: auto;
-    margin: auto;
-}
-
-.go_Github {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-weight: bolder;
-    color: white;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0004e6, 0 0 40px #0004e6, 0 0 50px #0004e6, 0 0 60px #0004e6, 0 0 70px #0004e6;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #a824a2, 0 0 40px #a824a2, 0 0 50px #a824a2, 0 0 60px #a824a2, 0 0 70px #a824a2, 0 0 80px #a824a2;
-    }
+.startButton {
+    background-color: #8b8b8b;
+    margin: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
 }
