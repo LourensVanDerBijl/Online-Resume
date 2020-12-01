@@ -1,3 +1,6 @@
+document.getElementById("personalInfo").addEventListener("mouseover", PersonalInfomation);
+
+
 function checkScreen() {
     var Wi = screen.width;
     var Hi = screen.height;
@@ -26,3 +29,9 @@ function myFunction() {
         x.className = "topnav";
     }
 };
+
+
+
+function PersonalInfomation() {
+    document.getElementById("InformationBody").innerHTML = "Lourens";
+}

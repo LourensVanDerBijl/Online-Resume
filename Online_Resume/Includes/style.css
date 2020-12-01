@@ -39,10 +39,22 @@ body {
 }
 
 .startButton {
-    background-color: #8b8b8b;
+    background-color: #585858;
+    color: rgb(209, 209, 209);
     margin: 12px;
     font-size: 14px;
     font-weight: 700;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.startButton:hover {
+    color: white;
+    background-color: #313131;
+}
+
+
+/* .button-container {
+    background-color: #42424294;
+    border-radius: 25px
+} */
