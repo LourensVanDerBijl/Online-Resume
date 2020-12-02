@@ -1,4 +1,7 @@
 document.getElementById("personalInfo").addEventListener("mouseover", PersonalInfomation);
+document.getElementById("aboutMe").addEventListener("mouseover", AboutMe);
+document.getElementById("myGoals").addEventListener("mouseover", MyGoals);
+document.getElementById("hobies").addEventListener("mouseover", MyHobies);
 
 
 function checkScreen() {
@@ -34,4 +37,16 @@ function myFunction() {
 
 function PersonalInfomation() {
     document.getElementById("InformationBody").innerHTML = "Lourens";
-}
+};
+
+function AboutMe() {
+    document.getElementById("InformationBody").innerHTML = "What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>?";
+};
+
+function MyGoals() {
+    document.getElementById("InformationBody").innerHTML = "What is my goals?";
+};
+
+function MyHobies() {
+    document.getElementById("InformationBody").innerHTML = "What do I like?";
+};

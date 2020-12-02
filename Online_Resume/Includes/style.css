@@ -53,6 +53,10 @@ body {
     background-color: #313131;
 }
 
+.subHeadings {
+    position: fixed;
+}
+
 
 /* .button-container {
     background-color: #42424294;
