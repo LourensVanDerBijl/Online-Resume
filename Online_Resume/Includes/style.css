@@ -14,6 +14,56 @@ body {
 .Start {
     width: 50%;
     margin: auto;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .center {
@@ -57,8 +107,14 @@ body {
     position: fixed;
 }
 
+.Contact-table {
+    background-color: rgb(233, 233, 233);
+}
 
-/* .button-container {
-    background-color: #42424294;
-    border-radius: 25px
-} */
+.tb-1 {
+    background-color: #fdfdfd;
+}
+
+.tb-2 {
+    background-color: #ffffff73;
+}

@@ -36,11 +36,11 @@ function myFunction() {
 
 
 function PersonalInfomation() {
-    document.getElementById("InformationBody").innerHTML = "Lourens";
+    document.getElementById("InformationBody").innerHTML = "Lourens" + "piet";
 };
 
 function AboutMe() {
-    document.getElementById("InformationBody").innerHTML = "What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>What about me<br>?";
+    document.getElementById("InformationBody").innerHTML = "about me";
 };
 
 function MyGoals() {
