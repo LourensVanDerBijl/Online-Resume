@@ -112,9 +112,31 @@ body {
 }
 
 .tb-1 {
-    background-color: #fdfdfd;
+    background-color: #fdfdfd2d;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .tb-2 {
-    background-color: #ffffff73;
+    background-color: #52515180;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.Pesonal-Info {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.intro-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.intro-table td {
+    padding-left: 10px;
+    padding-right: 10px;
 }
