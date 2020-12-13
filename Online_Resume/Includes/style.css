@@ -11,77 +11,87 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Start {
-    width: 50%;
-    margin: auto;
-    animation: fadeIn ease 6s;
-    -webkit-animation: fadeIn ease 6s;
-    -moz-animation: fadeIn ease 6s;
-    -o-animation: fadeIn ease 6s;
-    -ms-animation: fadeIn ease 6s;
+#fly-in {
+    font-size: 4em;
+    margin: 40vh auto;
+    height: 13vh;
+    text-transform: uppercase;
 }
 
-@keyframes fadeIn {
+#fly-in span {
+    display: block;
+    font-size: .4em;
+    opacity: .8;
+}
+
+#fly-in div {
+    position: fixed;
+    margin: 2vh 0;
+    opacity: 0;
+    left: 10vw;
+    width: 75vw;
+    animation: switch 24s linear infinite;
+}
+
+#fly-in div:nth-child(2) {
+    animation-delay: 4s
+}
+
+#fly-in div:nth-child(3) {
+    animation-delay: 8s
+}
+
+#fly-in div:nth-child(4) {
+    animation-delay: 12s
+}
+
+#fly-in div:nth-child(5) {
+    animation-delay: 16s
+}
+
+#fly-in div:nth-child(6) {
+    animation-delay: 20s
+}
+
+#fly-in div:nth-child(7) {
+    animation-delay: 24s
+}
+
+#fly-in div:nth-child(8) {
+    animation-delay: 28s
+}
+
+@keyframes switch {
     0% {
         opacity: 0;
+        filter: blur(20px);
+        transform: scale(12)
     }
-    100% {
+    3% {
         opacity: 1;
+        filter: blur(0);
+        transform: scale(1)
     }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
+    10% {
+        opacity: 1;
+        filter: blur(0);
+        transform: scale(.9)
+    }
+    13% {
         opacity: 0;
+        filter: blur(10px);
+        transform: scale(.1)
+    }
+    80% {
+        opacity: 0
     }
     100% {
-        opacity: 1;
+        opacity: 0
     }
 }
 
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.center {
-    background-color: #fff;
-    box-shadow: 0px 0px 20px 20px rgb(41, 41, 41);
-    margin: 0;
-    font-size: 13px;
-    font-weight: 800;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    border: 3px solid rgb(201, 201, 201);
-    color: black;
-    width: 45%;
-    text-align: center;
-    padding: 10px;
-}
+/*  */
 
 #screenSize {
     color: red;
@@ -136,6 +146,32 @@ body {
     font-weight: bold;
 }
 
+.about-me {
+    color: rgb(75, 75, 75);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.myGoals {
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.myHobies {
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
 .intro-table {
     margin-left: auto;
     margin-right: auto;
@@ -168,7 +204,7 @@ body {
     color: white;
     font-weight: bold;
     text-align: left;
-    margin: 10px;
+    margin: 5px;
     float: right;
 }
 
@@ -216,4 +252,32 @@ body {
 
  ::-webkit-scrollbar-thumb:hover {
     background: #000000;
+}
+
+
+/*break */
+
+.PersonalPara {
+    padding-top: 25px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
 }
