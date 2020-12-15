@@ -1,8 +1,5 @@
 body {
-    background-image: url("/Online_Resume/Images/background16.jpg");
-    background-repeat: repeat, repeat;
-    /* background-size: 100%, 100%; */
-    background-color: #0d92cf;
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar-brand {
@@ -280,4 +277,52 @@ body {
     100% {
         background-position: 500%;
     }
+}
+
+#company-name {
+    background-color: rgb(216, 216, 216);
+}
+
+#position {
+    background-color: #e5e2e2;
+}
+
+#position-discr {
+    background-color: rgb(236, 238, 238);
+}
+
+#company-name1 {
+    background-color: rgb(216, 216, 216);
+}
+
+#position1 {
+    background-color: #e5e2e2;
+}
+
+#position-discr1 {
+    background-color: rgb(236, 238, 238);
+}
+
+#company-name2 {
+    background-color: rgb(216, 216, 216);
+}
+
+#position2 {
+    background-color: #e5e2e2;
+}
+
+#position-discr2 {
+    background-color: rgb(236, 238, 238);
+}
+
+.info-1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 12px;
+}
+
+.info-2 {
+    padding-left: 14px;
+    text-align: right;
+    font-size: 12px;
 }

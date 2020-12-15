@@ -9,44 +9,132 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Professional View</title>
-    <link rel="icon" href="/Online_Resume/Images/topIcon.png" type="image/gif">
+    <title>Professional Information</title>
+    <link rel="icon" href="Images/topIcon.png" type="image/gif">
 </head>
 
-<body>
+<body onload="footer()">
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="Index.html">Lourens Van Der Bijl</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="Personal.html">PERSONAL VIEW</a></li>
-                <li class="active"><a href="Proffesional.html">PROFESSIONAL VIEW</a></li>
+                <li><a href="Personal.html">PERSONAL INFO</a></li>
+                <li class="active"><a href="#">PROFESSIONAL INFO</a></li>
 
             </ul>
         </div>
+
     </nav>
+
+
     <div class="container">
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
 
                 <ul class="nav navbar-nav">
-                    <li><a href="Personal.html">PERSONAL VIEW</a></li>
-                    <li class="active"><a href="Proffesional.html">PROFESSIONAL VIEW</a></li>
+                    <li><a href="#" id="work-experience">Work experience</a></li>
+                    <li><a href="#" id="dev-experience">Development experience</a></li>
+                    <li><a href="#" id="myGoals">Relevant Skillset</a></li>
+                    <li><a href="#" id="hobies">Education</a></li>
 
                 </ul>
+
             </div>
         </nav>
 
+
+
         <div id="InformationBody">
-            awddd
+
+            <div class="Pesonal-Info">
+                <!-- <p class="PersonalPara">I'm ready!<br><br><br></p> -->
+
+                <div class="work-experience">
+
+                    <div class="row">
+                        <div class="col-sm-4" id="company-name">mySHEQ <br><a href="https://www.mysheq.com/">https://www.mysheq.com/</a><br><br><br><br><br><br> </div>
+                        <div class="col-sm-4" id="position">Junior UI/UX developer<br>Part-time<br><br>
+                            <table>
+                                <tr>
+                                    <td class="info-1">
+                                        Since:
+                                    </td>
+                                    <td class="info-2">
+                                        2020/09 to current
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="info-1">
+                                        Reference:
+                                    </td>
+                                    <td class="info-2">
+                                        Neil Van Der Bijl
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="info-1">
+                                        Position:
+                                    </td>
+                                    <td class="info-2">
+                                        Company director
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="info-1">
+                                        Contact:
+                                    </td>
+                                    <td class="info-2">
+                                        074 898 0101
+                                    </td>
+                                </tr>
+                            </table> <br> </div>
+                        <div class="col-sm-4" id="position-discr">Working as a freelancer/part-time UI/UX developer for mySHEQ. I am assigned with tasks such as ampchart3.js to amchart4.js changeovers, developing web applications templates, creating anti-cheat systems for web application etc.<br><br></div>
+                    </div>
+                    <br><br><br><br>
+
+                    <!--break-->
+                    <div class="row">
+                        <div class="col-sm-4" id="company-name1">.col-sm-4</div>
+                        <div class="col-sm-4" id="position1">.col-sm-4</div>
+                        <div class="col-sm-4" id="position-discr1">.col-sm-4</div>
+                    </div>
+                    <br><br><br><br>
+
+                    <!--break-->
+                    <div class="row">
+                        <div class="col-sm-4" id="company-name2">.col-sm-4</div>
+                        <div class="col-sm-4" id="position2">.col-sm-4</div>
+                        <div class="col-sm-4" id="position-discr2">.col-sm-4</div>
+                    </div>
+                    <br><br><br><br><br><br><br><br>
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
         </div>
 
 
+        <div id="footer">
 
+        </div>
     </div>
 
 
+
+
+
+    <script src="Includes/scripts.js"></script>
 </body>
 
 </html>
