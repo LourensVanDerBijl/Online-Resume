@@ -289,6 +289,7 @@ body {
 
 #position-discr {
     background-color: rgb(236, 238, 238);
+    text-align: left;
 }
 
 #company-name1 {
@@ -301,6 +302,7 @@ body {
 
 #position-discr1 {
     background-color: rgb(236, 238, 238);
+    text-align: left;
 }
 
 #company-name2 {
@@ -313,6 +315,7 @@ body {
 
 #position-discr2 {
     background-color: rgb(236, 238, 238);
+    text-align: left;
 }
 
 .info-1 {
