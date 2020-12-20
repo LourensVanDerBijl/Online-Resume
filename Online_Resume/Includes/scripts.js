@@ -1,7 +1,10 @@
+//Personal Information
 document.getElementById("personalInfo").addEventListener("mouseover", PersonalInfomation);
 document.getElementById("aboutMe").addEventListener("mouseover", AboutMe);
 document.getElementById("myGoals").addEventListener("mouseover", MyGoals);
 document.getElementById("hobies").addEventListener("mouseover", MyHobies);
+
+
 
 var mybutton = document.getElementById("bckTop");
 
@@ -35,8 +38,12 @@ function myFunction() {
     }
 };
 
+function test() {
+    document.getElementById("InformationBody").innerHTML = "foken werk";
+}
 
 
+// Personal Information
 function PersonalInfomation() {
     document.getElementById("InformationBody").innerHTML = "<div class='introduction'> My name is Lourens Van Der Bijl. I am a 26-year-old male currently situated in<br> Witbank, Mpumalanga, South-Africa.<br> I am highly motivated and eager to <br>relocate to any city/town where my skillsets are required<br>and can" +
         " expand.</div>" +
@@ -133,6 +140,14 @@ function MyGoals() {
 };
 
 function MyHobies() {
+    document.getElementById("InformationBody").innerHTML = "<div class = 'myHobies'><h4>What do I enjoy?</h4><ul><li>I enjoy spending time infront of my computer, whether it is playing games or working on development projects.</li>" +
+        "<li>I enjoy spending time with colleagues and friends, socializing and engaging in different activities together.</li>" +
+        "<li>Although I am not a musician, I enjoy playing the guitar.</li>" +
+        "<li>I like to do outside activities, engaging in board sport, motor sport etc.</li></ul><br><br><br><br><br><br><br></div>";
+};
+
+//Professional Information
+function MworkExperience() {
     document.getElementById("InformationBody").innerHTML = "<div class = 'myHobies'><h4>What do I enjoy?</h4><ul><li>I enjoy spending time infront of my computer, whether it is playing games or working on development projects.</li>" +
         "<li>I enjoy spending time with colleagues and friends, socializing and engaging in different activities together.</li>" +
         "<li>Although I am not a musician, I enjoy playing the guitar.</li>" +
