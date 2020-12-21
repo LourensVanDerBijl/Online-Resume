@@ -143,6 +143,18 @@ body {
     font-weight: bold;
 }
 
+.Dev-skills1 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Dev-skills2 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .about-me {
     color: rgb(75, 75, 75);
     text-align: center;
@@ -178,6 +190,11 @@ body {
 .intro-table td {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.Front-Lang {
+    color: rgb(250, 250, 250);
+    background-color: rgb(241, 241, 250);
 }
 
 #footer {
@@ -281,41 +298,86 @@ body {
 
 #company-name {
     background-color: rgb(216, 216, 216);
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #position {
     background-color: #e5e2e2;
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #position-discr {
     background-color: rgb(236, 238, 238);
     text-align: left;
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #company-name1 {
     background-color: rgb(216, 216, 216);
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #position1 {
     background-color: #e5e2e2;
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #position-discr1 {
     background-color: rgb(236, 238, 238);
     text-align: left;
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #company-name2 {
     background-color: rgb(216, 216, 216);
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #position2 {
     background-color: #e5e2e2;
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 #position-discr2 {
     background-color: rgb(236, 238, 238);
     text-align: left;
+    color: rgb(75, 75, 75);
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 .info-1 {
