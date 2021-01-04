@@ -167,7 +167,7 @@ function topFunction() {
 function footer() {
     document.getElementById("footer").innerHTML = "<div class='Contact-me'>" +
         "Lourens Van Der Bijl<br>lourensvdbijl@gmail.com" +
-        "<br> 060 526 1031" +
+        "<br> +27 60 526 1031" +
         "</div>" +
 
 
