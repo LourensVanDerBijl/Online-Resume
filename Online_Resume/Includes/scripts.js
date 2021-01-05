@@ -68,7 +68,7 @@ function PersonalInfomation() {
         "<td>South African</td>" +
         "</tr>" +
         "<tr class='tb-1'>" +
-        "<td>Gendre:</td>" +
+        "<td>Gender:</td>" +
         "<td>Male</td>" +
         "</tr>" +
         "<tr class='tb-2'>" +
@@ -84,7 +84,7 @@ function PersonalInfomation() {
         " <td>26</td>" +
         "</tr>" +
         "<tr class='tb-1'>" +
-        " <td>Driver's licence:</td>" +
+        " <td>Driver's license:</td>" +
         " <td>Yes</td>" +
         " </tr>" +
         "<tr class='tb-2'>" +
@@ -109,7 +109,7 @@ function PersonalInfomation() {
 
 function AboutMe() {
     document.getElementById("InformationBody").innerHTML = "<div class='about-me'> Passionate, reliable, dedicated, neat, hardworking, 'quick study' and goal-driven are just a few attributes I can use to describe myself. I take pride in my appearance and am motivated by my achievements. I am devoted to becoming a great developer/software engineer and achieving my career goal as a full stack developer." +
-        "<br><br><br><br>I am a high achieving distance student at  Richfield Graduate Institute of Technology currently undertaking my Bachelor of Science in Information Technology degree. During the course of my studies in which I had minimum lecture support and still obtained remarkble results (distinctions), I have learned that I can accomplish anything that I put my heart on. I will be completing my degree (final year) in 2021." +
+        "<br><br><br><br>I am a high achieving distance student at  Richfield Graduate Institute of Technology currently undertaking my Bachelor of Science in Information Technology degree. During the course of my studies in which I had minimum lecture support and still obtained remarkable results (distinctions), I have learned that I can accomplish anything that I put my heart on. I will be completing my degree (final year) in 2021." +
         "<br><br><br><br>In my career, I attempt to be productive rather than busy. I always regard a companies needs and targets as a significant priority. I enjoy working in a team and as my current colleagues can attest I can also produce excellent results on my own. As a team leader for 5 years I also have target-driven leadership skills. " +
         "As a Junior (but still learning) developer, I enjoy working with and learning new coding languages. <br><br><br><br><br><br><br><br></div> ";
 };

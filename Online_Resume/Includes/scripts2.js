@@ -5,6 +5,10 @@ document.getElementById("RelevantSkills").addEventListener("mouseover", Relevant
 document.getElementById("Education").addEventListener("mouseover", Education);
 document.getElementById("Studies").addEventListener("mouseover", Studies);
 
+
+//certificates
+
+
 var mybutton = document.getElementById("bckTop");
 
 function WorkExperience() {
@@ -56,7 +60,7 @@ function WorkExperience() {
         "<li>Business enterprise systems in-training.</li>" +
         "<li>Working with enterprise system API.</li>" +
         "<li>Using multiple JS libraries (Vue.js, Bootstrap, AJAX, Jquery, amcharts etc.).</li>" +
-        "<li>Maintaining excellent timekeeping responsible for projects on my own.</li>" +
+        "<li>Maintain excellent timekeeping.</li> <li>Responsible for projects on my own.</li>" +
         "</ul><br><br></div>" +
         "</div>" +
         "<br><br><br><br>" +
@@ -65,7 +69,7 @@ function WorkExperience() {
         "<div class='col-sm-4' id='company-name1'>Umbane Technology<br><a href='http://umbanetechnology.co.za/'>http://umbanetechnology.co.za/</a><br>" +
         "<br></div>" +
         "<div class='col-sm-4' id='position1'>" +
-        "Team leader / Site Supervisior <br>Full-time<br><br>" +
+        "Team leader / Site supervisor <br>Full-time<br><br>" +
         "<table>" +
         "<tr>" +
         "<td class='info-1'>" +
@@ -103,14 +107,14 @@ function WorkExperience() {
         "</div>" +
         "<div class='col-sm-4' id='position-discr1'>" +
         "<ul>" +
-        "<li>Worked closely with network administrators and server engineers to deliver quality service.</li>" +
-        "<li>Planned layouts and ran the cable into buildings and through walls, attics and crawl spaces.</li>" +
-        "<li>Diagnosed and resolved complex integrated customer issues for implementation, add-on, maintenance and support of voice, data, VoIP and CTI applications.</li>" +
-        "<li>Installed and configured new devices and system components.</li>" +
-        "<li>Performed network operations and installation of telecommunication equipment for several telecom companies.</li>" +
-        "<li>Responded to service requests during and after business hours.</li>" +
-        "<li>Maintained excellent attendance records, consistently arriving to work on time.</li>" +
-        "<li>Managed quality assurance programs, including on-site evaluations, internal audits and customer surveys.</li><br>" +
+        "<li>Work closely with network administrators and server engineers to deliver quality service.</li>" +
+        "<li>Plan layouts and run the cable into buildings and through walls, attics and crawl spaces.</li>" +
+        "<li>Diagnose and resolve complex integrated customer issues for implementation, add-on, maintenance and support of voice, data, VoIP and CTI applications.</li>" +
+        "<li>Install and configure new devices and system components.</li>" +
+        "<li>Perform network operations and installation of telecommunication equipment for several telecom companies.</li>" +
+        "<li>Responds to service requests during and after business hours.</li>" +
+        "<li>Maintain excellent attendance records, consistently arriving to work on time.</li>" +
+        "<li>Manage quality assurance programs, including on-site evaluations, internal audits and customer surveys.</li><br>" +
         "</ul>" +
         "</div>" +
         "</div>" +
@@ -174,7 +178,7 @@ function DevelopmentSkills() {
     document.getElementById("InformationText").innerHTML = "<div class='dSkils'>" +
         "<div class='Dev-skills1'>" +
         "<h3>FRONT-END DEVELOPMENT</h3>" +
-        "I have fundamental experience with front-end development.<br> UI/UX is an important part of any development process and I enjoy the challenges it brings.<br> I have experience with the following technologies (but are not limited to):" +
+        "I have fundamental experience with front-end development.<br> UI/UX is an important part of any development process and I enjoy the challenges it presents.<br> I have experience with the following technologies (but are not limited to):" +
         "<br><br>" +
         "<div class='progress'>" +
         "<div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='40' aria-valuemin='0' aria-valuemax='100' style='width:95%'>" +
@@ -271,7 +275,7 @@ function DevelopmentSkills() {
         "<br><br><br>" +
         "<div class='Dev-skills1'>" +
         "<h3>BACK-END DEVELOPMENT</h3>" +
-        "I have a great passion for developing web applications that interact with users and obtain and save information. The majority of my back-enddevelopment experience is based on PHP storing and manipulating data in MySQL. I also have some experience in other" +
+        "I have a great passion for developing web applications that interact with users and obtain and save information. The majority of my back-end development experience is based on PHP storing and manipulating data in MySQL. I also have some experience in other" +
         "back-end languages likeC++, Java etc.  I often also used JavaScript libraries for back-end development (Vue.js, React, etc.)." +
         "<br><br>" +
         "<div class='progress'>" +
@@ -303,8 +307,8 @@ function RelevantSkills() {
     document.getElementById("InformationText").innerHTML = "<div class='container'>" +
         "<div class='row'>" +
         "<div class='col-sm-6'>" +
-        "<div class='relSkills'> Experienced in Object-oriented programming (OOP).</div>" +
-        "<div class='relSkills'> Experienced in Object-oriented Design (OOD).</div>" +
+        "<div class='relSkills'> Experienced in Object-Oriented Programming (OOP).</div>" +
+        "<div class='relSkills'> Experienced in Object-Oriented Design (OOD).</div>" +
         "<div class='relSkills'> Experienced in Software testing and debugging.</div>" +
         "<div class='relSkills'> Experienced in Software testing and debugging.</div>" +
         "<div class='relSkills'> Critical and logical mindset with a problem-solving attitude.</div>" +
@@ -324,7 +328,7 @@ function RelevantSkills() {
         "<div class='relSkills'> Working knowledge of the SDLC.</div>" +
         "<div class='relSkills'> Proficient in written and verbal communication.</div>" +
         "<div class='relSkills'> Achieving and fast learning.</div>" +
-        "<div class='relSkills'> Experienced with software applications like Microsoft office.</div>" +
+        "<div class='relSkills'> Experienced with software applications such as Microsoft office etc.</div>" +
         "<div class='relSkills'> Fluent in English and Afrikaans.</div>" +
         "<div class='relSkills'> Drivers licence (Code B).</div>" +
         "</div>" +
@@ -398,9 +402,9 @@ function Education() {
         "<h3>Bachelor's degree of Science in Information Technology - <i>Year 2 - Semester 1</i></h3>" +
         "<h4><a href='https://www.richfield.ac.za/'>Richfield Graduate Institute of Technology</a></h4>" +
         "<ul>" +
-        "<li>Information systems 621</li>" +
-        "<li>Database systems 600</li>" +
-        "<li>Cloud computing 600</li>" +
+        "<li>Information Systems 621</li>" +
+        "<li>Database Systems 600</li>" +
+        "<li>Cloud Computing 600</li>" +
         "<li>Internet Programming 621</li>" +
         "<li>Programming 621</li><br>" +
         "<a href='Includes/Year_2_sem_1.pdf' class='DownloadResult' download>Download official Result</a>" +
@@ -417,15 +421,15 @@ function Education() {
         "</thead>" +
         "<tbody>" +
         "<tr>" +
-        "<th scope='Information_systems_621'>Information systems 621</th>" +
+        "<th scope='Information_Systems_621'>Information Systems 621</th>" +
         "<td>96%</td>" +
         "</tr>" +
         "<tr>" +
-        "<th scope='Database_systems_600'>Database systems 600</th>" +
+        "<th scope='Database_Systems_600'>Database Systems 600</th>" +
         "<td>93%</td>" +
         "</tr>" +
         "<tr>" +
-        "<th scope='Cloud_computing_600'>Cloud computing 600</th>" +
+        "<th scope='Cloud_computing_600'>Cloud Computing 600</th>" +
         "<td>96%</td>" +
         "</tr>" +
         "<tr>" +
@@ -452,7 +456,7 @@ function Education() {
         "<h3>Bachelor's degree of Science in Information Technology - <i>Year 1 - Semester 2</i></h3>" +
         "<h4><a href='https://www.richfield.ac.za/'>Richfield Graduate Institute of Technology</a></h4>" +
         "<ul>" +
-        "<li>Information systems 512</li>" +
+        "<li>Information Systems 512</li>" +
         "<li>Mathematics 512</li>" +
         "<li>Networks 512</li>" +
         "<li>Programming 512</li>" +
@@ -471,7 +475,7 @@ function Education() {
         "</thead>" +
         "<tbody>" +
         "<tr>" +
-        "<th scope='Information_systems_512'>Information systems 512</th>" +
+        "<th scope='Information_systems_512'>Information Systems 512</th>" +
         "<td>78%</td>" +
         "</tr>" +
         "<tr>" +
@@ -557,31 +561,31 @@ function Education() {
         "<h4>National Senior Certificate (NSC)</h4>" +
         "<h5>Technology High School Middelburg</h5>" +
         "<h5>Class of 2012</h5>" +
-        "<a href='https://htsmiddelburg.co.za/'>https://htsmiddelburg.co.za/</a><br> For academic record please contact <br> Miss Antonette Kolesky" +
+        "<a href='https://htsmiddelburg.co.za/'>https://htsmiddelburg.co.za/</a><br> For academic record please contact <br> Miss Antonette Kolesky <br>" +
         "<a href='mailto:admin@htsmiddelburg.co.za'>admin@htsmiddelburg.co.za</a><br> +27 13 282 6029<br><br>" +
         "<a href='Includes/Getuigskrif.jpeg' class='DownloadResult' download>Download Testimonial</a><br><br>" +
         "</div>" +
         "<!--break-->" +
         "<br><br><br>" +
-        "<h3><u>Online Certificate completed</u></h3>" +
+        "<h3><u>Online Certificates completed</u></h3>" +
         "These certifications do not provide any additional credits. The goal of completing these certificates was to show my dedication and interest in the development field and also to gain some additional knowledge of these subjects.<br><br>" +
         "<div class='container'>" +
         "<div class='row'>" +
         "<div class='col-sm-4'><br><br>" +
         "<div class='certificate1'>" +
-        "HTML Fundamentals course <br>19 July 2020 <br><button>View Certificate</button>" +
+        "HTML Fundamentals course <br>19 July 2020 <br><button onclick='htmlCer()'>View Certificate</button>" +
         "</div>" +
         "</div>" +
         "<!--break-->" +
         "<div class='col-sm-4'><br><br>" +
         "<div class='certificate1'>" +
-        "CSS Fundamentals course <br>24 July 2020 <br><button>View Certificate</button>" +
+        "CSS Fundamentals course <br>24 July 2020 <br><button onclick='CSSCer()'>View Certificate</button>" +
         "</div>" +
         "</div>" +
         "<!--break-->" +
         "<div class='col-sm-4'><br><br>" +
         "<div class='certificate1'>" +
-        "JavaScript Tutorial course <br>19 July 2020 <br><button>View Certificate</button>" +
+        "JavaScript Tutorial course <br>19 July 2020 <br><button onclick='JSCer()'>View Certificate</button>" +
         "</div>" +
         "</div>" +
         "</div>" +
@@ -590,38 +594,16 @@ function Education() {
         "<div class='row'>" +
         "<div class='col-sm-4'><br><br>" +
         "<div class='certificate1'>" +
-        "HTML Fundamentals course <br>19 July 2020 <br><button>View Certificate</button>" +
+        "PHP Tutorial course <br>25 July 2020 <br><button onclick='PHPCer()'>View Certificate</button>" +
         "</div>" +
         "</div>" +
         "<!--break-->" +
         "<div class='col-sm-4'><br><br>" +
         "<div class='certificate1'>" +
-        "CSS Fundamentals course <br>24 July 2020 <br><button>View Certificate</button>" +
+        "SQL Fundamentals course <br>27 July 2020 <br><button onclick='SQLCer()'>View Certificate</button>" +
         "</div>" +
         "</div>" +
         "<!--break-->" +
-        "<div class='col-sm-4'><br><br>" +
-        "<div class='certificate1'>" +
-        "JavaScript Tutorial course <br>19 July 2020 <br><button>View Certificate</button>" +
-        "</div>" +
-        "</div>" +
-        "</div>" +
-        "</div>" +
-        "<div class='container'>" +
-        "<div class='row'>" +
-        "<div class='col-sm-4'><br><br>" +
-        "<div class='certificate1'>" +
-        "PHP Tutorial course<br>25 July 2020 <br><button>View Certificate</button>" +
-        "</div>" +
-        "</div>" +
-        "<!--break-->" +
-        "<div class='col-sm-4'><br><br>" +
-        "<div class='certificate1'>" +
-        "SQL Fundamentals course <br>27 July 2020 <br><button>View Certificate</button>" +
-        "</div>" +
-        "</div>" +
-        "<!--break-->" +
-        "</div>" +
         "</div>" +
         "</div>" +
         "<br><br><br><br><br><br><br><br><br>" +
@@ -980,6 +962,27 @@ function myFunction() {
         x.className = "topnav";
     }
 };
+
+function htmlCer() {
+    window.open("https://www.sololearn.com/Certificate/1014-15586817/jpg");
+};
+
+function CSSCer() {
+    window.open("https://www.sololearn.com/Certificate/1023-15586817/pdf/");
+};
+
+function JSCer() {
+    window.open("https://www.sololearn.com/Certificate/1024-15586817/pdf/");
+};
+
+function PHPCer() {
+    window.open("https://www.sololearn.com/Certificate/1059-15586817/pdf/");
+};
+
+function SQLCer() {
+    window.open("https://www.sololearn.com/Certificate/1060-15586817/pdf/");
+};
+
 
 
 
