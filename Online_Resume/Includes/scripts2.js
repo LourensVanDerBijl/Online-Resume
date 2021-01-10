@@ -124,7 +124,7 @@ function WorkExperience() {
         "<div class='col-sm-4' id='company-name2'>Bootcamp DEV courses<br>Developing phase <br><br>" +
         "</div>" +
         "<div class='col-sm-4' id='position2'>" +
-        "Assisting Front-End developer <br> Volentary Work <br><br>" +
+        "Assisting Front-End developer <br> Voluntary Work <br><br>" +
         "<table>" +
         "<tr>" +
         "<td class='info-1'>" +
